@@ -32,7 +32,7 @@ async function getConnectionInfo() {
   const DATABASE_NAME = process.env.DATABASE_NAME || "azure-todo-app";
 
   return {
-    DATABASE_URL: process.env.mongodb://saasb-expressjs-mongodb-xyz-database,
+    DATABASE_URL: process.env.mongodb://saasb_expressjs_mongodb_xyz_database,
     DATABASE_NAME: process.env.saasb_expressjs_mongodb_xyz_database
   }
 }
